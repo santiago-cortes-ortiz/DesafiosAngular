@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/59752118/179375020-c6b20b77-d9f2-4e59-a838-9edf0df7b038.png)
+
+
 # ComponentesCortes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
