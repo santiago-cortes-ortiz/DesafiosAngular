@@ -1,0 +1,21 @@
+<table class="table mt-5">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Apellido</th>
+        <th scope="col">Correo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let student of students; let i = index">
+        <th scope="row">{{ i + 1}}</th>
+        <td>{{student.nombre | uppercase}}</td>
+        <td>{{student.apellido | uppercase}}</td>
+        <td>{{student.correo | uppercase}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="alert alert-primary" role="alert">
+    <p [style.font-size]="students.length > 3 ? '20px' : '20px'">La lista es grande</p>
+  </div>
